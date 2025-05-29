@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Página Informativa</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Aquí va tu título principal</h1>
+    <p>Aquí puedes poner una descripción general de todo el contenido.</p>
+  </header>
+
+  <main>
+    <!-- CONTENIDO PRINCIPAL -->
+    <div id="contenido-principal" class="contenido-principal">
+      <section id="so" class="contenido animado">
+        <div class="contenido-interno">
+          <img src="https://via.placeholder.com/200x150/0077cc/ffffff?text=SO" alt="Sistemas Operativos" />
+          <div class="texto">
+            <h2>Sistemas Operativos</h2>
+            <p>Aquí colocas tu información sobre sistemas operativos.</p>
+            <a class="ver-mas" onclick="mostrarDetalle('detalle-so')">Ver más</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="bd" class="contenido animado">
+        <div class="contenido-interno">
+          <img src="https://via.placeholder.com/200x150/0077cc/ffffff?text=BD" alt="Bases de Datos" />
+          <div class="texto">
+            <h2>Bases de Datos</h2>
+            <p>Aquí colocas tu información sobre bases de datos.</p>
+            <a class="ver-mas" onclick="mostrarDetalle('detalle-bd')">Ver más</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="prog" class="contenido animado">
+        <div class="contenido-interno">
+          <img src="https://via.placeholder.com/200x150/0077cc/ffffff?text=PROG" alt="Programación" />
+          <div class="texto">
+            <h2>Programación</h2>
+            <p>Aquí colocas tu información sobre programación.</p>
+            <a class="ver-mas" onclick="mostrarDetalle('detalle-prog')">Ver más</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="redes" class="contenido animado">
+        <div class="contenido-interno">
+          <img src="https://via.placeholder.com/200x150/0077cc/ffffff?text=REDES" alt="Redes" />
+          <div class="texto">
+            <h2>Redes</h2>
+            <p>Aquí colocas tu información sobre redes.</p>
+            <a class="ver-mas" onclick="mostrarDetalle('detalle-redes')">Ver más</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="acerca" class="contenido animado">
+        <div class="contenido-interno">
+          <img src="https://via.placeholder.com/200x150/0077cc/ffffff?text=ACERCA" alt="Acerca de" />
+          <div class="texto">
+            <h2>Acerca de</h2>
+            <p>Aquí colocas la información sobre ti o el propósito de la página.</p>
+            <a class="ver-mas" onclick="mostrarDetalle('detalle-acerca')">Ver más</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- PÁGINAS DE DETALLE -->
+    <!-- Detalle Sistemas Operativos -->
+    <div id="detalle-so" class="pagina-detalle">
+      <h1 class="detalle-titulo">Sistemas Operativos</h1>
+      <p>Los sistemas operativos son el software fundamental que gestiona los recursos del hardware y proporciona servicios para los programas de aplicación.</p>
+      <p>Un sistema operativo actúa como intermediario entre los usuarios y el hardware del computador, facilitando la ejecución de programas y la gestión de recursos.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/0077cc/ffffff?text=Imagen+SO" alt="Sistemas Operativos" />
+      
+      <h3 class="detalle-subtitulo">Tipos de Sistemas Operativos</h3>
+      <p>Existen diversos tipos de sistemas operativos, cada uno diseñado para diferentes necesidades y plataformas.</p>
+      <p>Los más comunes incluyen Windows, macOS, Linux, y sistemas móviles como Android e iOS.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/005fa3/ffffff?text=Tipos+SO" alt="Tipos de SO" />
+      
+      <iframe class="detalle-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
+      
+      <!-- Secciones finales -->
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=1" alt="Sección 1" />
+        <div class="seccion-final-content">
+          <h4>Gestión de Memoria</h4>
+          <p>La gestión de memoria es una función crítica que controla y coordina la memoria del computador.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=2" alt="Sección 2" />
+        <div class="seccion-final-content">
+          <h4>Gestión de Procesos</h4>
+          <p>Los sistemas operativos administran la ejecución de múltiples procesos de manera eficiente.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=3" alt="Sección 3" />
+        <div class="seccion-final-content">
+          <h4>Sistema de Archivos</h4>
+          <p>Proporciona métodos para almacenar, organizar y acceder a los datos en dispositivos de almacenamiento.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=4" alt="Sección 4" />
+        <div class="seccion-final-content">
+          <h4>Interfaz de Usuario</h4>
+          <p>Permite la interacción entre el usuario y el sistema a través de interfaces gráficas o línea de comandos.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=5" alt="Sección 5" />
+        <div class="seccion-final-content">
+          <h4>Seguridad del Sistema</h4>
+          <p>Implementa medidas de protección para salvaguardar los datos y recursos del sistema.</p>
+        </div>
+      </div>
+      
+      <div class="centro">
+        <a class="btn-volver" onclick="volverAlMenu()">¿Quieres ver más?</a>
+      </div>
+    </div>
+
+    <!-- Detalle Bases de Datos -->
+    <div id="detalle-bd" class="pagina-detalle">
+      <h1 class="detalle-titulo">Bases de Datos</h1>
+      <p>Una base de datos es una colección organizada de información estructurada, almacenada electrónicamente en un sistema informático.</p>
+      <p>Las bases de datos permiten el almacenamiento, recuperación y gestión eficiente de grandes cantidades de información.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/0077cc/ffffff?text=Imagen+BD" alt="Bases de Datos" />
+      
+      <h3 class="detalle-subtitulo">Tipos de Bases de Datos</h3>
+      <p>Existen diferentes modelos de bases de datos, cada uno con sus propias características y usos específicos.</p>
+      <p>Los principales tipos incluyen relacionales, NoSQL, orientadas a objetos y en memoria.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/005fa3/ffffff?text=Tipos+BD" alt="Tipos de BD" />
+      
+      <iframe class="detalle-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
+      
+      <!-- Secciones finales -->
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=1" alt="Sección 1" />
+        <div class="seccion-final-content">
+          <h4>SQL</h4>
+          <p>Lenguaje de consulta estructurado para gestionar y manipular bases de datos relacionales.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=2" alt="Sección 2" />
+        <div class="seccion-final-content">
+          <h4>Normalización</h4>
+          <p>Proceso de organización de datos para minimizar la redundancia y mejorar la integridad.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=3" alt="Sección 3" />
+        <div class="seccion-final-content">
+          <h4>Índices</h4>
+          <p>Estructuras que mejoran la velocidad de las operaciones de consulta en las tablas.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=4" alt="Sección 4" />
+        <div class="seccion-final-content">
+          <h4>Transacciones</h4>
+          <p>Unidades lógicas de trabajo que garantizan la consistencia e integridad de los datos.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=5" alt="Sección 5" />
+        <div class="seccion-final-content">
+          <h4>Backup y Recuperación</h4>
+          <p>Estrategias para proteger y restaurar datos en caso de fallos o pérdidas.</p>
+        </div>
+      </div>
+      
+      <div class="centro">
+        <a class="btn-volver" onclick="volverAlMenu()">¿Quieres ver más?</a>
+      </div>
+    </div>
+
+    <!-- Detalle Programación -->
+    <div id="detalle-prog" class="pagina-detalle">
+      <h1 class="detalle-titulo">Programación</h1>
+      <p>La programación es el proceso de crear un conjunto de instrucciones que le dicen a una computadora cómo realizar una tarea.</p>
+      <p>Involucra el diseño, escritura, prueba y mantenimiento del código fuente de programas informáticos.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/0077cc/ffffff?text=Imagen+PROG" alt="Programación" />
+      
+      <h3 class="detalle-subtitulo">Lenguajes de Programación</h3>
+      <p>Los lenguajes de programación son herramientas que permiten a los programadores comunicarse con las computadoras.</p>
+      <p>Cada lenguaje tiene su sintaxis, características y aplicaciones específicas en diferentes dominios.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/005fa3/ffffff?text=Lenguajes" alt="Lenguajes" />
+      
+      <iframe class="detalle-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
+      
+      <!-- Secciones finales -->
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=1" alt="Sección 1" />
+        <div class="seccion-final-content">
+          <h4>Algoritmos</h4>
+          <p>Secuencias lógicas de pasos para resolver problemas de manera eficiente.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=2" alt="Sección 2" />
+        <div class="seccion-final-content">
+          <h4>Estructuras de Datos</h4>
+          <p>Formas de organizar y almacenar datos para facilitar su acceso y modificación.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=3" alt="Sección 3" />
+        <div class="seccion-final-content">
+          <h4>Paradigmas</h4>
+          <p>Diferentes enfoques y metodologías para abordar la resolución de problemas.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=4" alt="Sección 4" />
+        <div class="seccion-final-content">
+          <h4>Depuración</h4>
+          <p>Proceso de identificar, analizar y corregir errores en el código.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=5" alt="Sección 5" />
+        <div class="seccion-final-content">
+          <h4>Versionado</h4>
+          <p>Control de cambios en el código fuente a lo largo del tiempo.</p>
+        </div>
+      </div>
+      
+      <div class="centro">
+        <a class="btn-volver" onclick="volverAlMenu()">¿Quieres ver más?</a>
+      </div>
+    </div>
+
+    <!-- Detalle Redes -->
+    <div id="detalle-redes" class="pagina-detalle">
+      <h1 class="detalle-titulo">Redes</h1>
+      <p>Las redes de computadoras son sistemas que permiten la interconexión de dispositivos para compartir recursos e información.</p>
+      <p>Facilitan la comunicación y el intercambio de datos entre computadoras ubicadas en diferentes lugares.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/0077cc/ffffff?text=Imagen+REDES" alt="Redes" />
+      
+      <h3 class="detalle-subtitulo">Tipos de Redes</h3>
+      <p>Las redes se clasifican según su alcance geográfico, topología y tecnología de conexión.</p>
+      <p>Incluyen LAN, WAN, MAN, y redes inalámbricas, cada una con características específicas.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/005fa3/ffffff?text=Tipos+Redes" alt="Tipos de Redes" />
+      
+      <iframe class="detalle-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
+      
+      <!-- Secciones finales -->
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=1" alt="Sección 1" />
+        <div class="seccion-final-content">
+          <h4>Protocolos TCP/IP</h4>
+          <p>Conjunto de reglas que gobierna la comunicación en Internet y redes locales.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=2" alt="Sección 2" />
+        <div class="seccion-final-content">
+          <h4>Topologías</h4>
+          <p>Diferentes formas de organizar y conectar los dispositivos en una red.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=3" alt="Sección 3" />
+        <div class="seccion-final-content">
+          <h4>Seguridad de Red</h4>
+          <p>Medidas y protocolos para proteger la información y recursos de la red.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=4" alt="Sección 4" />
+        <div class="seccion-final-content">
+          <h4>Router y Switch</h4>
+          <p>Dispositivos fundamentales para dirigir y gestionar el tráfico de red.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=5" alt="Sección 5" />
+        <div class="seccion-final-content">
+          <h4>WiFi y Ethernet</h4>
+          <p>Tecnologías principales para conexiones inalámbricas y por cable.</p>
+        </div>
+      </div>
+      
+      <div class="centro">
+        <a class="btn-volver" onclick="volverAlMenu()">¿Quieres ver más?</a>
+      </div>
+    </div>
+
+    <!-- Detalle Acerca de -->
+    <div id="detalle-acerca" class="pagina-detalle">
+      <h1 class="detalle-titulo">Acerca de</h1>
+      <p>Esta página web fue creada con el propósito de compartir conocimientos sobre tecnología e informática.</p>
+      <p>Nuestro objetivo es proporcionar información clara y accesible sobre diversos temas tecnológicos.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/0077cc/ffffff?text=Imagen+ACERCA" alt="Acerca de" />
+      
+      <h3 class="detalle-subtitulo">Nuestra Misión</h3>
+      <p>Democratizar el acceso al conocimiento tecnológico y fomentar el aprendizaje continuo.</p>
+      <p>Creemos que la educación en tecnología debe ser accesible para todos, sin importar su nivel de experiencia.</p>
+      
+      <img class="detalle-imagen" src="https://via.placeholder.com/600x300/005fa3/ffffff?text=Mision" alt="Misión" />
+      
+      <iframe class="detalle-video" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
+      
+      <!-- Secciones finales -->
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=1" alt="Sección 1" />
+        <div class="seccion-final-content">
+          <h4>Equipo</h4>
+          <p>Conformado por profesionales apasionados por la tecnología y la educación.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=2" alt="Sección 2" />
+        <div class="seccion-final-content">
+          <h4>Experiencia</h4>
+          <p>Más de 10 años combinados en desarrollo de software y educación tecnológica.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=3" alt="Sección 3" />
+        <div class="seccion-final-content">
+          <h4>Comunidad</h4>
+          <p>Fomentamos una comunidad de aprendizaje colaborativo y apoyo mutuo.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=4" alt="Sección 4" />
+        <div class="seccion-final-content">
+          <h4>Recursos</h4>
+          <p>Ofrecemos materiales educativos actualizados y de alta calidad.</p>
+        </div>
+      </div>
+      
+      <div class="seccion-final">
+        <img src="https://via.placeholder.com/120x80/28a745/ffffff?text=5" alt="Sección 5" />
+        <div class="seccion-final-content">
+          <h4>Contacto</h4>
+          <p>Siempre disponibles para responder preguntas y recibir sugerencias.</p>
+        </div>
+      </div>
+      
+      <div class="centro">
+        <a class="btn-volver" onclick="volverAlMenu()">¿Quieres ver más?</a>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    function mostrarDetalle(idDetalle) {
+      // Ocultar contenido principal
+      document.getElementById('contenido-principal').classList.add('oculto');
+      
+      // Ocultar todas las páginas de detalle
+      var detalles = document.getElementsByClassName('pagina-detalle');
+      for (var i = 0; i < detalles.length; i++) {
+        detalles[i].classList.remove('activa');
+      }
+      
+      // Mostrar la página de detalle seleccionada
+      document.getElementById(idDetalle).classList.add('activa');
+      
+      // Scroll al inicio
+      window.scrollTo(0, 0);
+    }
+    
+    function volverAlMenu() {
+      // Ocultar todas las páginas de detalle
+      var detalles = document.getElementsByClassName('pagina-detalle');
+      for (var i = 0; i < detalles.length; i++) {
+        detalles[i].classList.remove('activa');
+      }
+      
+      // Mostrar contenido principal
+      document.getElementById('contenido-principal').classList.remove('oculto');
+      
+      // Scroll al inicio
+      window.scrollTo(0, 0);
+    }
+  </script>
+</body>
+</html>
